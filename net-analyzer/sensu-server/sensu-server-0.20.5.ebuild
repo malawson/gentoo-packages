@@ -50,6 +50,5 @@ pkg_postinst() {
 	else
 		einfo "${INSTALL_DIR}/sensu-server already appears to be a link"
 	fi
-	ewarn "You should create symlinks to conf files"
 
 }
