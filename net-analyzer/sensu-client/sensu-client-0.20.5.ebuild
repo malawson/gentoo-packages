@@ -47,6 +47,5 @@ pkg_postinst() {
 	else
 		einfo "${INSTALL_DIR}/sensu-client already appears to be a link"
 	fi
-	ewarn "You should create symlinks to conf files"
-
+	
 }
